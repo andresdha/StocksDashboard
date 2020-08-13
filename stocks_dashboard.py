@@ -15,9 +15,12 @@ USER = config('DASHBOARD_USER')
 PASSWORD = config('DASHBOARD_PASS')
 USER2 = config('DASHBOARD_USER2')
 PASSWORD2 = config('DASHBOARD_PASS2')
+USER3 = config('DASHBOARD_USER3')
+PASSWORD3 = config('DASHBOARD_PASS3')
 USERNAME_PASSWORD_PAIRS = [
                             [USER, PASSWORD],
-                            [USER2, PASSWORD2]
+                            [USER2, PASSWORD2],
+                            [USER3, PASSWORD3]
                         ]
 
 
