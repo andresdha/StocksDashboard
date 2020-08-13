@@ -10,7 +10,7 @@ dash-html-components==1.0.3
 dash-renderer==1.6.0
 dash-table==4.9.0
 DateTime==4.3
-decouple
+python-decouple
 Flask==1.1.2
 Flask-Compress==1.5.0
 Flask-SeaSurf==0.2.2
