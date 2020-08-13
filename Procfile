@@ -1,1 +1,1 @@
-web: gunicorn Scripts/stocks_dashboard:server
+web: gunicorn stocks_dashboard:server
