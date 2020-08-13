@@ -27,7 +27,7 @@ app = dash.Dash()
 auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
 server = app.server
 
-nsdq = pd.read_csv('/media/andres/HDD/Documents/Courses/Interactive Dashboards with Plotly and Dash/Resources/Plotly-Dashboards-with-Dash-master/Data/NASDAQcompanylist.csv')
+nsdq = pd.read_csv('NASDAQcompanylist.csv')
 nsdq = nsdq.set_index('Symbol')
 options = [dict(label=str(nsdq.loc[tic]['Name']) + tic,
                 value= tic) for tic in nsdq.index]
